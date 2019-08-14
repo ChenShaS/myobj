@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-image: url("https://image1.suning.cn/uimg/cms/img/156535512423573765.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #FB5308;
+}
+.nav{
+    background-color: #F5F5F5;
+    height: 36px;
+    font-size: 12px;
+    line-height: 35px;
+    padding: 0 54px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+/* .nav-right-item-1{
+    color: #FB5308;
+}
+.nav-left-addres.nav-left-cart{
+    color: #FB5308;
+} */
+a{ 
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #FB5308;
+}
+a:nth-child(2){
+    color: #FB5308;
+}
+
+.nav-left{
+    display: flex;
+}
+.nav-left-item{
+    padding: 0 10px;
+}
+.nav-left-img {
+    color: #666;
+}
+.icon-down2,.icon-down-fill{
+    font-size: 18px;
+    /* font-weight: lighter;
+    padding: 0 8px; */
+}
+.nav-right{
+    display: flex;
+}
+
+

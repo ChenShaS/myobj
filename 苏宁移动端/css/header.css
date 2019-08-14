@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: calc(100*100vw/600);
+}
+body{
+    font-size: 0.3rem;
+}
+.header{
+    position: flex;
+    left: 0;
+    top: 0;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.header-con1{
+    height: 2.97rem;
+    display: flex;
+    position: relative; 
+}
+.hearder-con1-left li{
+    float: left;
+    list-style: none;
+}
+.hearder-con1-left img{
+    width: 6.45rem;
+    height: 2.97rem;
+}
+.hearder-con1-left ul{
+    /* width: 1200px; */
+    width: 19.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: mymove 10s infinite;
+}
+.hearder-con1-left{
+    /* width: 400px;
+    height: 200px; */
+    width: 6.45rem;
+    height: 2.97rem;
+    overflow: hidden;
+    position: relative;
+}
+@keyframes mymove {
+    0%,27%{
+        left: 0;
+    }
+    34%,61%{
+        left: -6.45rem;
+    }
+    68%,100%{
+        left: -12.9rem;
+    }
+}
+   /* 搜索框 */
+    .header-con1-center img{
+        position: absolute;
+        left: 1.04rem;
+        top: 0.34rem;
+        width: 0.25rem;
+        height: 0.25rem;
+        z-index: 99;
+    }
+    .header-con1-center input{
+        width: 4.2rem;
+        height: 0.51rem;
+        border-radius: 0.25rem;
+        border: 0;
+        padding: 0 0.58rem;
+        box-sizing: border-box;
+        color: #ccc;
+        position: absolute;
+        left: 0.8rem;
+        top: 0.2rem;
+    }
+    .header-con1-center input:focus{
+        outline: none;
+    }
+    .header-con1-right{
+        position: absolute;
+        left: 5.2rem;
+        top: 0.3rem;
+    }
+    .header-con1-right p{
+        font-size:0.2rem;
+        color:#fff;
+    }
+
+.header-con2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.15rem;
+  
+}
+.header-con2-content{
+        text-align: center;
+        flex: 1;
+        padding-left: 0.26rem;
+        line-height: 0.56rem;
+ }
+ .header-con2-content-img{
+        width: 0.7rem;
+        height: 0.67rem;
+ }
+.header-con2-content-text{
+        font-size: 0.2rem; 
+        text-align: center;
+        color: #666;
+}
+.header-con3-img{
+    width: 6.04rem;
+    height: 2.2rem;
+}

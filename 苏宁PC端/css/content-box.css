@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-box{
+    height: 482px;
+    position: relative;
+    background-image: url(../img/s1.jpg);
+    background-repeat: no-repeat; 
+    background-position: 54% 0;
+    background-color: #FF5611;
+}
+/* 盒子左边 */
+.content-box-left{
+    width: 230px;
+    position: absolute;
+    z-index: 999;
+    font-size: 13px;
+    top: 0px;
+    left: 50px;
+    color: #fff;
+    background-color:#333;
+    line-height: 32px;
+}
+.content-box-left-div:hover{
+    color: #fff;
+
+}
+.content-box-left span{
+    font-weight: lighter;
+}
+.content-box-left a{
+    color: #fff;
+    text-decoration: none; 
+    padding: 0px 8px 0px 10px;
+}
+
+.content-box-left a:hover{
+    color:  #FF5611;
+}
+
+/* 盒子下方 */
+.content-box-bottom{
+    width:830px;
+    height: 122px; 
+    position: relative;
+    left: 284px;
+    top: 350px;
+    /* bottom: 8px;
+    left: 278px; */
+}
+.content-box-bottom div{
+    width: 202px;
+    height: 122px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+
+}
+.content-box-bottom-box1 .name1{
+    color: rgb(239, 65, 36);
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 17px;
+    margin:10px 0px 0px 12px;
+}
+.content-box-bottom-box2 .name2{
+    color: rgb(152, 55, 238);
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 17px;
+    margin:10px 0px 0px 12px;
+}
+.content-box-bottom-box3 .name3{
+    color: rgb(40, 175, 46);
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 17px;
+    margin:10px 0px 0px 12px;
+}
+.content-box-bottom-box4 .name4{
+    color: rgb(36, 130, 239);
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 17px;
+    margin:10px 0px 0px 12px;
+}
+.content-box-bottom .price{
+    font-size: 14px;
+    color: #666;
+    margin: 1px 0px 0px 12px;
+}
+.content-box-bottom .picture{
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+}
+/* 盒子右边 */
+.content-box-right{
+    width: 170px;
+    position:absolute;
+    z-index: 999;
+    font-size: 13px;
+    top: 0px;
+    right:70px;
+   background-color: #fff;
+    line-height: 32px;
+}
+.content-box-right-box1 {
+    height: 140px;  
+}
+.content-box-right-box1-img{
+    width: 52px;
+    height: 52px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.content-box-right-box1-text{
+    padding-top: 60px;
+    padding-left: 58px;
+}
+
+.content-box-right-box2{
+    height: 150px;
+    padding-top: 48px;
+    /* background-color: #ccc; */
+}
+.content-box-right-box2 li{ 
+    float: top;
+    list-style: none;
+}
+.content-box-right-box2 ul{
+    /* background-color: #ccc; */
+    height: 300px;
+    margin-top: 8px;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: mymove 10s infinite;
+}
+.content-box-right-box21{
+    width: 170px;
+    height: 90px;
+    
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    padding-top:5px;
+    padding-bottom: 5px;
+     
+}
+.content-box-right-box2-1{
+width:170px;
+height: 30px;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 12px;
+margin-top: 4px;
+}
+.content-box-right-box2 i{
+margin-right: 5px;
+color: #F60;
+text-decoration: none;    
+font-style: normal;
+}
+.content-box-right-box2 a{
+color: #333;
+text-decoration: none;
+
+}
+@keyframes mymove {
+    0%,30%{
+        top: 0;
+    }
+    40%,70%{
+        top: -110px;
+    }
+    80%,100%{
+        top: -210px;
+    }
+   
+}
+
+
+.content-box-right-box3 ul{
+    list-style: none;
+    width: 170px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+   
+}
+.content-box-right-box3 ul li{
+  
+    list-style: none;
+    float: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    padding: 16px 0;
+    text-align: center;
+    width: 56px;
+    height: 72px;
+    box-sizing: border-box;
+}
+.content-box-right-box3 ul li span{
+    display: block;
+}
+.content-box-right-box3 ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content-box-right-box3-text{
+    color: #333;
+    margin-top:-5px;
+    font-size: 12px;
+}
+.content-box-right-box3-p{
+    font-size: 24px;
+    color: #f90;
+    font-weight: bolder;
+}
